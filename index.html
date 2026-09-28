@@ -1,0 +1,83 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#0a0b0b">
+
+    <link rel="icon" type="image/png" href="favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-title" content="Wither Bot" />
+    <link rel="manifest" href="site.webmanifest" />
+
+    <meta name="author" content="M336">
+    <title id="title">Hey, I'm Wither Bot!</title>
+    <meta name="description" content="I'm a Discord bot with Minecraft and Hypixel SkyBlock features, as well as some Moderation and Quality of Life commands.">
+    <meta name="keywords" content="wither, bot, minecraft, hypixel, skyblock, moderation, qol, m336, discord, privacy, policy, tos, email">
+
+    <meta name="robots" content="index">
+    <meta http-equiv="content-language" content="en">
+
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/7163c22952.js" crossorigin="anonymous" defer></script>
+
+    <script>
+        const now = new Date();
+
+        // Snow effect on December
+        if (now.getMonth() === 11) {
+            const script = document.createElement("script");
+            script.src = "https://app.embed.im/snow.js";
+            script.defer = true;
+            document.head.appendChild(script);
+        }
+
+        // Confetti effect on January 1st
+        if (now.getMonth() === 0 && now.getDate() === 1) {
+            const script = document.createElement("script");
+            script.src = "https://app.embed.im/confetti.js";
+            script.defer = true;
+            document.head.appendChild(script);
+        }
+    </script>
+</head>
+
+<body>
+    <main>
+        <img id="logo" src="favicon.svg" alt="Wither Bot logo" />
+        <div id="content">
+            <div id="text">
+                <h1>Wither Bot</h1>
+                <p>Hey! I'm a Discord bot with <span>Minecraft</span> and <span>Hypixel SkyBlock</span> features,<br> as
+                    well as some <span>Moderation</span> and <span>Quality of Life</span> commands.</p>
+            </div>
+
+            <div id="links">
+                <a class="discord-link" href="https://discord.com/oauth2/authorize?client_id=1039238934682665030" target="_blank" rel="noopener">
+                    <i class="fa-regular fa-envelope-open"></i> Invite the bot
+                </a>
+                <a class="discord-link" href="https://discord.gg/adbqkyvbZa" target="_blank" rel="noopener">
+                    <i class="fa-brands fa-discord"></i> Join support server
+                </a>
+                <a class="default-link" href="tos">
+                    <i class="fa-solid fa-file-contract"></i> Read Terms of Service
+                </a>
+                <a class="default-link" href="privacy">
+                    <i class="fa-solid fa-fingerprint"></i> Read Privacy Policy
+                </a>
+                <a class="default-link" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#109;&#51;&#51;&#54;&#43;&#119;&#105;&#116;&#104;&#101;&#114;&#98;&#111;&#116;&#64;&#109;&#51;&#51;&#54;&#46;&#100;&#101;&#118;" target="_blank" rel="noopener">
+                    <i class="fa-solid fa-envelope"></i> Got an issue? E-mail my developer!</a>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>© Copyright M336 2026 - All rights reserved</p>
+        <p>Wither Bot is <strong>not</strong> affiliated with Mojang, Microsoft nor Hypixel.</p>
+    </footer>
+</body>
+
+</html>

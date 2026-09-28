@@ -1,0 +1,4 @@
+User-Agent: *
+Allow: *
+
+Sitemap: https://wither-bot.pages.dev/sitemap.xml
