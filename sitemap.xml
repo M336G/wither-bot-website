@@ -6,17 +6,17 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
 <url>
-  <loc>https://wither-bot.pages.dev/</loc>
+  <loc>https://wither.is-a.bot/</loc>
   <lastmod>2026-09-28</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://wither-bot.pages.dev/privacy</loc>
+  <loc>https://wither.is-a.bot/privacy</loc>
   <lastmod>2026-09-28</lastmod>
   <priority>0.50</priority>
 </url>
 <url>
-  <loc>https://wither-bot.pages.dev/tos</loc>
+  <loc>https://wither.is-a.bot/tos</loc>
   <lastmod>2026-09-28</lastmod>
   <priority>0.40</priority>
 </url>
